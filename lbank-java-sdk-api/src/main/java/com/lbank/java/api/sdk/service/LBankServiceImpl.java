@@ -59,11 +59,6 @@ public class LBankServiceImpl {
      * 批量下单
      *
      * @param orders   [{"symbol":"eth_btc","amount":"1","price":"0.6","custom_id":"","type":"sell"},{"symbol":"eth_btc","amount":"1","price":"0.7","custom_id":"","type":"sell"}]
-     * @param symbol   交易对
-     * @param type     委托买卖类型buy/sell
-     * @param price    下单价格
-     * @param amount   交易数量
-     * @param customId 自定义ID
      * @return
      */
     public ResBatchCreateOrderVo batchCreateOrder(String orders) throws Exception {
