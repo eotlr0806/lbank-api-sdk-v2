@@ -25,12 +25,19 @@ public class ResCreateOrderVo implements Serializable {
      * 返回时间戳
      */
     private Long ts;
+    private String msg;
 
     /**
      * 返回数据结构
      */
     private Map<String,String> data;
 
+    public String getMsg() {
+        return msg;
+    }
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
 
     public Boolean getResult() {
         return result;

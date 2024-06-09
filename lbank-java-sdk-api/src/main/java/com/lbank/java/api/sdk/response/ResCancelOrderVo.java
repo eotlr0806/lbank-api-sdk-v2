@@ -30,7 +30,14 @@ public class ResCancelOrderVo implements Serializable {
      * 返回数据结构
      */
     private Map<String,String> data;
+    private String msg;
 
+    public void setMsg(String msg){
+        this.msg = msg;
+    }
+    public String getMsg(){
+        return this.msg;
+    }
 
     public Boolean getResult() {
         return result;
